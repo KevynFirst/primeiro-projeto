@@ -1,0 +1,412 @@
+*{
+    font-family: "Roboto";
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+
+}
+
+.w33{
+    width: 33.33%;
+    float: left;
+}
+
+.wcenter{
+    text-align: center;
+}
+
+color{
+    display: inline;
+    color: #519b70;
+    display: inline-block;
+    font-weight: 600;
+}
+
+color.c2{
+    color:#2b2d42;
+    display: inline-block;
+}
+
+/*site*/
+header{
+    padding: 8px 0;
+}
+
+.logored{
+    color: #c04a4c;
+}
+
+.logo{
+    float:left;
+}
+
+.logo h2{
+    color: #2b2d42;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+nav.menu-desktop{
+    float: right;
+}
+
+nav.menu-desktop ul{
+    color: #2b2d42;
+    position: relative;
+    top: 8px 0;
+
+}
+
+nav.menu-desktop li{
+    color: #2b2d42;
+    display: inline-block;
+    padding: 8px;   
+}
+
+nav.menu-desktop li.home{
+    font-weight: bold;
+}
+
+nav.menu-desktop a:hover{
+    color: #c04a4c;
+    transition: 0.2s;
+}
+
+/* Section com tecnica float */
+section.main-section{
+    position: relative;
+    width: 100%;
+    padding: 140px 0 200px 0;
+    background-image: url('../imgs/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.main-section .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+}
+
+section.main-section .titulo{
+    font-weight: bolder;
+    font-size: 75px;
+    margin-bottom: 25px;
+}
+
+section.main-section > .center{
+    position: relative;
+    z-index: 2;
+}
+
+section.main-section h2{
+    text-align: center;
+    color: #aa2f31;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+section.main-section p{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px; 
+}
+
+.line-text{
+    position: relative;
+    display: inline-block;
+    color: #c04a4c;
+}
+
+.line-text h2{
+    font-weight: normal;
+    font-size: 30px;
+   }
+
+.line-text > div.barra-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 3px;
+    background: #2b2d42;
+}
+
+section.diferenciais{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.box-icone-single{
+    float:left;
+    width: 33.33%;
+    padding: 0 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.box-icone-single h1{
+    color: #c04a4c;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.box-icone-single p{
+    font-size: 15px;
+}
+
+/* Section com tecnica flex */
+section.sobre-equipe{
+    padding: 30px 0;
+    background: #ececec;
+}
+
+section.sobre-equipe > .center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.sobre-equipe .equipe{
+    width: 50%;
+}
+
+section.sobre-equipe .equipe h2{
+    font-weight: bold;
+}
+
+section.sobre-equipe .equipe p{
+    font-size: 15px;
+}
+
+section.sobre-equipe .sobre{
+    width: 50%;
+    margin-top: 20px;
+}
+
+section.sobre-equipe .sobre h2{
+    text-decoration: underline;
+}
+
+section.sobre-equipe .sobre p{
+    padding-right: 50px;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.avatar-box{
+    margin-top: 15px;
+}
+
+.img-avatar{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+.descricao-avatar{
+    display: inline-block;
+    width: calc(100% - 70px);
+    padding: 0 10px;
+}
+
+.descricao-avatar h2{
+    padding: 10px 0;
+    color: #2b2d42;
+    font-weight: normal;
+    font-style: italic;
+    
+}
+
+.descricao-avatar p{
+    color: rgb(30, 30, 30);
+    font-weight: lighter;
+}
+
+section.inscricao{
+    background: #2b2d42;
+    padding: 20px 0;
+}
+
+h2.inscricao-texto{
+    font-weight: 500;
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.inscricao-form input[type=text]{
+    width: calc(95% - 100px);
+    height: 40px;
+    background: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.inscricao-form input[type=submit]{
+    width: 100px;
+    height: 40px;
+    background: #1d6c64;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section.cards{
+	padding: 30px 0;
+}
+
+
+section.cards > .center{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards-wraper{
+	width: 33.3%;
+	padding: 20px;
+}
+
+
+.box-single-cards{
+	height: 100%;
+	border: 1px solid rgb(225,225,225);
+}
+
+.box-single-cards img{
+	max-width: 100%;
+}
+
+.box-single-cards h2{
+	text-align: center;
+	padding:0 8px;
+	font-weight: normal;
+}
+
+.box-single-cards p{
+	padding:15px 8px;
+	font-size: 15px;
+	color: rgb(10,10,10);
+}
+
+.cards-wraper a{
+	color: white;
+	background: #5fb382;
+	padding: 10px 8px;
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+
+.cards-wraper a:hover{
+    background-color: #c04a4c;
+    transition: 0.5s;
+}
+
+footer.footer1{
+    background: #ececec;
+    padding: 20px 0;
+    color: #2b2d42;
+}
+
+footer.footer1 h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+footer.footer1 p{
+    font-weight: lighter;
+    margin-top: 8px;
+}
+
+footer.footer1 a{
+    margin-top: 4px;
+    display: block;
+    color: #2b2d42;
+}
+
+div.grupo-icons a{
+    font-size: 20px;
+    display: inline-block;
+    margin: 15px 4px;
+}
+
+div.grupo-icons,footer.footer1 a:hover{
+    color: #c04a4c;
+    transition: 0.2s;
+}
+
+h2.contato{
+    margin: 0 4px;
+}
+
+footer.footer2{
+    padding: 15px 0;
+    background: #2b2d42;
+    text-align: center;
+    color: white;
+}
+
+/*Responsividade*/
+@media screen and (max-width: 768px) {
+
+    .w50,.w33{width: 100%; margin-bottom: 20px;}
+
+
+    .box-icone-single{
+        width: 100%;
+    }
+
+    section.sobre-equipe .equipe{
+        width: 100%;
+        text-align: center;
+    }
+    
+    section.sobre-equipe .sobre{
+        width: 100%;
+        margin: 60px 0 0 30px;
+        text-align: center;
+        padding: 0 0 0 30px;
+    }
+
+    .line-text h2{
+        padding-right: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .cards-wraper{
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+        margin:30px auto;
+    }
+
+    footer.footer1{
+        text-align: center;
+    }
+}
