@@ -18,7 +18,6 @@
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Font Awesome](https://fontawesome.com/)
 
----
 
 ## Obrigado por visitar meu projeto 😉
 <i>Você pode conferir outros projetos que desenvolvi aqui no meu GitHub, ou entrar em contato comigo pelos demais links.</i>
