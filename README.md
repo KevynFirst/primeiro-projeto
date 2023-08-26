@@ -1,4 +1,4 @@
-<h1 align="center">Primeiro Projeto</h1>
+<h1 align="center">.:| Primeiro Projeto |:.</h1>
 
 <h2 align="center">📖Descrição</h2>
 
