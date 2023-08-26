@@ -10,7 +10,7 @@
 
 <h2 align="center">🖥Preview</h2>
 
-<img src="readme_imgs\portfolio desktop.png" alt="Preview desktop"></img>
+<img src="imgs\primeiro projeto.png" alt="Preview desktop"></img>
 
 ### Veja o projeto funcionando <a href="https://kevynfirst.github.io/primeiro-projeto">aqui</a>. 👈
 
