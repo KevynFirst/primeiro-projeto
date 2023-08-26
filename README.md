@@ -6,8 +6,6 @@
 
 <p align="center">Esse é meu primeiro projeto depois que decidi ir em busca de mudar de vida através da programação. Baseado no conteúdo do curso Web Designer Express da Danki Code. Aqui eu utilizo HTML5 e CSS3, para colocar em prática os conteúdos dessas tecnologias, 100% responsivo.</p>
 
----
-
 <h2 align="center">🖥Preview</h2>
 
 <img src="imgs\primeiro projeto.png" alt="Preview desktop"></img>
