@@ -1,7 +1,5 @@
 <h1 align="center">Primeiro Projeto</h1>
 
----
-
 <h2 align="center">📖Descrição</h2>
 
 <p align="center">Esse é meu primeiro projeto depois que decidi ir em busca de mudar de vida através da programação. Baseado no conteúdo do curso Web Designer Express da Danki Code. Aqui eu utilizo HTML5 e CSS3, para colocar em prática os conteúdos dessas tecnologias, 100% responsivo.</p>
